@@ -170,6 +170,87 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+virtualMemory/PhysicalMemory.o: virtualMemory/PhysicalMemory.cpp.o
+
+.PHONY : virtualMemory/PhysicalMemory.o
+
+# target to build an object file
+virtualMemory/PhysicalMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.o
+.PHONY : virtualMemory/PhysicalMemory.cpp.o
+
+virtualMemory/PhysicalMemory.i: virtualMemory/PhysicalMemory.cpp.i
+
+.PHONY : virtualMemory/PhysicalMemory.i
+
+# target to preprocess a source file
+virtualMemory/PhysicalMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.i
+.PHONY : virtualMemory/PhysicalMemory.cpp.i
+
+virtualMemory/PhysicalMemory.s: virtualMemory/PhysicalMemory.cpp.s
+
+.PHONY : virtualMemory/PhysicalMemory.s
+
+# target to generate assembly for a file
+virtualMemory/PhysicalMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.s
+.PHONY : virtualMemory/PhysicalMemory.cpp.s
+
+virtualMemory/SimpleTest.o: virtualMemory/SimpleTest.cpp.o
+
+.PHONY : virtualMemory/SimpleTest.o
+
+# target to build an object file
+virtualMemory/SimpleTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.o
+.PHONY : virtualMemory/SimpleTest.cpp.o
+
+virtualMemory/SimpleTest.i: virtualMemory/SimpleTest.cpp.i
+
+.PHONY : virtualMemory/SimpleTest.i
+
+# target to preprocess a source file
+virtualMemory/SimpleTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.i
+.PHONY : virtualMemory/SimpleTest.cpp.i
+
+virtualMemory/SimpleTest.s: virtualMemory/SimpleTest.cpp.s
+
+.PHONY : virtualMemory/SimpleTest.s
+
+# target to generate assembly for a file
+virtualMemory/SimpleTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.s
+.PHONY : virtualMemory/SimpleTest.cpp.s
+
+virtualMemory/VirtualMemory.o: virtualMemory/VirtualMemory.cpp.o
+
+.PHONY : virtualMemory/VirtualMemory.o
+
+# target to build an object file
+virtualMemory/VirtualMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.o
+.PHONY : virtualMemory/VirtualMemory.cpp.o
+
+virtualMemory/VirtualMemory.i: virtualMemory/VirtualMemory.cpp.i
+
+.PHONY : virtualMemory/VirtualMemory.i
+
+# target to preprocess a source file
+virtualMemory/VirtualMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.i
+.PHONY : virtualMemory/VirtualMemory.cpp.i
+
+virtualMemory/VirtualMemory.s: virtualMemory/VirtualMemory.cpp.s
+
+.PHONY : virtualMemory/VirtualMemory.s
+
+# target to generate assembly for a file
+virtualMemory/VirtualMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.s
+.PHONY : virtualMemory/VirtualMemory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +263,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... virtualMemory/PhysicalMemory.o"
+	@echo "... virtualMemory/PhysicalMemory.i"
+	@echo "... virtualMemory/PhysicalMemory.s"
+	@echo "... virtualMemory/SimpleTest.o"
+	@echo "... virtualMemory/SimpleTest.i"
+	@echo "... virtualMemory/SimpleTest.s"
+	@echo "... virtualMemory/VirtualMemory.o"
+	@echo "... virtualMemory/VirtualMemory.i"
+	@echo "... virtualMemory/VirtualMemory.s"
 .PHONY : help
 
 

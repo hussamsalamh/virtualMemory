@@ -1,0 +1,40 @@
+
+
+
+Note :
+
+
+
+    First must make a dfs function to find the empty frame
+
+    must be one function that find the address so you dont need to use a global variable
+
+    must make a function to translate the address and make each page in cell of the array
+
+
+    number of the row in the table is the offest so must make a & bitwise with the part
+    of the address
+
+
+// Look the ex for making traverse in the tree
+
+    must divide the address to after offset to depth tree length
+
+
+
+
+Implementation :
+
+     First : make a translate function to translate the address
+        Save the address in array
+
+    Second : use for loop to travesrs to the tree
+        If the frame is 0
+
+            Must find empty frame to use it
+
+           1- Use dfs function to find frame that's not in page
+
+           2 - use evict function to find frame
+
+    use this steps for both function VMWrite and VMread

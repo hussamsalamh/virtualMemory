@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cs/usr/hussamsal/CLionProjects/ex4/main.cpp" "/cs/usr/hussamsal/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/main.cpp.o"
+  "/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.cpp" "/cs/usr/hussamsal/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.o"
+  "/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/SimpleTest.cpp" "/cs/usr/hussamsal/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.o"
+  "/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.cpp" "/cs/usr/hussamsal/CLionProjects/ex4/cmake-build-debug/CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

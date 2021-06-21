@@ -85,6 +85,21 @@
 		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/main.cpp">
 			<Option target="ex4"/>
 		</Unit>
+		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/SimpleTest.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.h">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
