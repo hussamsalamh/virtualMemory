@@ -251,6 +251,33 @@ virtualMemory/VirtualMemory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.s
 .PHONY : virtualMemory/VirtualMemory.cpp.s
 
+virtualMemory/fuck.o: virtualMemory/fuck.cpp.o
+
+.PHONY : virtualMemory/fuck.o
+
+# target to build an object file
+virtualMemory/fuck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/fuck.cpp.o
+.PHONY : virtualMemory/fuck.cpp.o
+
+virtualMemory/fuck.i: virtualMemory/fuck.cpp.i
+
+.PHONY : virtualMemory/fuck.i
+
+# target to preprocess a source file
+virtualMemory/fuck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/fuck.cpp.i
+.PHONY : virtualMemory/fuck.cpp.i
+
+virtualMemory/fuck.s: virtualMemory/fuck.cpp.s
+
+.PHONY : virtualMemory/fuck.s
+
+# target to generate assembly for a file
+virtualMemory/fuck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/virtualMemory/fuck.cpp.s
+.PHONY : virtualMemory/fuck.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -272,6 +299,9 @@ help:
 	@echo "... virtualMemory/VirtualMemory.o"
 	@echo "... virtualMemory/VirtualMemory.i"
 	@echo "... virtualMemory/VirtualMemory.s"
+	@echo "... virtualMemory/fuck.o"
+	@echo "... virtualMemory/fuck.i"
+	@echo "... virtualMemory/fuck.s"
 .PHONY : help
 
 

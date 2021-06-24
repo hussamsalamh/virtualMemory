@@ -5,7 +5,7 @@ Note :
 
 
 
-    First must make a dfs function to find the empty frame
+    First must make a dfs function to find the empty currentFrame
 
     must be one function that find the address so you dont need to use a global variable
 
@@ -29,12 +29,12 @@ Implementation :
         Save the address in array
 
     Second : use for loop to travesrs to the tree
-        If the frame is 0
+        If the currentFrame is 0
 
-            Must find empty frame to use it
+            Must find empty currentFrame to use it
 
-           1- Use dfs function to find frame that's not in page
+           1- Use dfs function to find currentFrame that's not in page
 
-           2 - use evict function to find frame
+           2 - use evict function to find currentFrame
 
     use this steps for both function VMWrite and VMread

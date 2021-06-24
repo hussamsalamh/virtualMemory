@@ -60,3 +60,26 @@ void PMrestore(uint64_t frameIndex, uint64_t restoredPageIndex) {
     RAM[frameIndex] = std::move(swapFile[restoredPageIndex]);
     swapFile.erase(restoredPageIndex);
 }
+
+void printRAM()
+{
+	printf("\nPRINTING RAM \n");
+	int counter=0;
+	auto i=RAM.begin();
+	while (i!=RAM.end())
+	{
+		auto j= (*i).begin();
+		printf("RAM[%d] =[ ",counter);
+
+		while(j!=(*i).end())
+		{
+			printf("%d ,",*j);
+			++j;
+		}
+		printf(" ]\n");
+		++counter;
+		++i;
+	}
+	printf("\n-----------------------------\n");
+
+}

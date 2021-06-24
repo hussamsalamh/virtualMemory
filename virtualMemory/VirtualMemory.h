@@ -5,7 +5,7 @@
 /*
  * Initialize the virtual memory
  */
-void VMinitialize();
+void  VMinitialize();
 
 /* reads a word from the given virtual address
  * and puts its content in *value.

@@ -6,7 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/hussamsal/CLionProjects/ex4/main.cpp
-iostream
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/MemoryConstants.h
+climits
 -
+stdint.h
+-
+
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.cpp
+PhysicalMemory.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.h
+vector
+-
+unordered_map
+-
+cassert
+-
+cstdio
+-
+
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.h
+MemoryConstants.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/MemoryConstants.h
+
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/SimpleTest.cpp
+VirtualMemory.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.h
+PhysicalMemory.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.h
+cstdio
+-
+cassert
+-
+
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.cpp
+VirtualMemory.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.h
+PhysicalMemory.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/PhysicalMemory.h
+
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.h
+MemoryConstants.h
+/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/MemoryConstants.h
 

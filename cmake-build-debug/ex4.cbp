@@ -100,6 +100,9 @@
 		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/VirtualMemory.h">
 			<Option target="ex4"/>
 		</Unit>
+		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/virtualMemory/fuck.cpp">
+			<Option target="ex4"/>
+		</Unit>
 		<Unit filename="/cs/usr/hussamsal/CLionProjects/ex4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

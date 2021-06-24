@@ -1,8 +1,8 @@
-//#include "VirtualMemory.h"
-//
-//#include <cstdio>
-//#include <cassert>
-//
+#include "VirtualMemory.h"
+#include "PhysicalMemory.h"
+#include <cstdio>
+#include <cassert>
+
 //int main(int argc, char **argv) {
 //    VMinitialize();
 //    for (uint64_t i = 0; i < (2 * NUM_FRAMES); ++i) {
@@ -20,3 +20,18 @@
 //
 //    return 0;
 //}
+
+
+
+int main(int argc, char **argv)
+{
+  VMwrite(13,3);
+  printRAM();
+  word_t val;
+  VMread(6,&val);
+  printRAM();
+  VMread(31,&val);
+  printRAM();
+
+  //////////?
+}

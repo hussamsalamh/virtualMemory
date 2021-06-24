@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(ex4 main.cpp virtualMemory/VirtualMemory.cpp
         virtualMemory/VirtualMemory.h virtualMemory/SimpleTest.cpp
-        virtualMemory/PhysicalMemory.cpp virtualMemory/PhysicalMemory.h)
+        virtualMemory/PhysicalMemory.cpp
+        virtualMemory/PhysicalMemory.h
+        virtualMemory/fuck.cpp)

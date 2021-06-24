@@ -7,10 +7,15 @@ CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.o: ../virtualMemory/MemoryCo
 CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.o: ../virtualMemory/PhysicalMemory.cpp
 CMakeFiles/ex4.dir/virtualMemory/PhysicalMemory.cpp.o: ../virtualMemory/PhysicalMemory.h
 
+CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.o: ../virtualMemory/MemoryConstants.h
+CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.o: ../virtualMemory/PhysicalMemory.h
 CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.o: ../virtualMemory/SimpleTest.cpp
+CMakeFiles/ex4.dir/virtualMemory/SimpleTest.cpp.o: ../virtualMemory/VirtualMemory.h
 
 CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.o: ../virtualMemory/MemoryConstants.h
 CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.o: ../virtualMemory/PhysicalMemory.h
 CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.o: ../virtualMemory/VirtualMemory.cpp
 CMakeFiles/ex4.dir/virtualMemory/VirtualMemory.cpp.o: ../virtualMemory/VirtualMemory.h
+
+CMakeFiles/ex4.dir/virtualMemory/fuck.cpp.o: ../virtualMemory/fuck.cpp
 
